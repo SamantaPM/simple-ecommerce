@@ -14,6 +14,7 @@ const Page = () => {
     setCartItems([]);
     setTotalPrice(0);
     setTotalQuantities(0);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
